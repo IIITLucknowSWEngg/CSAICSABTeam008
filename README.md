@@ -10,5 +10,5 @@ Shrishti Dubey CSAI (LCI2023006) (shrishtidubey5204@gmail.com) (ShrishtiDubey27)
 Ayushi Awasthi CSAI (LCI2023007) (awasthiayushi301@gmail.com) (AyushiiiAwasthi) <br />
 Anurag Kumar CSAI (LCI2023036) (lci2023036@iiitl.ac.in) (BeingAnurag) <br />
 Swyam Kumar CSAI (LCI2023052) (lci2023052@iiitl.ac.in) (Swyamk) <br />
-
+Abhinav Sagar CSAI (LCI2023028) (lci2023028@iiitl.ac.in) (abhinavsagarr) <br />
 
