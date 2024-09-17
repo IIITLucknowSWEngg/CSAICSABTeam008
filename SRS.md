@@ -149,7 +149,7 @@ Concord will provide users with the capability to create customizable servers fo
 - Perform regular security assessments, including penetration testing and code reviews, to ensure the platform remains secure against potential vulnerabilities.
 
 ### 8.4 User Feedback and Iterative Testing
-- Implement a system for collecting user feedback during and after the testing phases to ensure that the application meets user expectations and conduct usability testing with real users to identify pain points and areas for improvement.
+- Implement a system for collecting user feedback and conducting regular usability testing to identify areas for improvement.
 
 ## 9. Deployment and Maintenance
 
