@@ -126,3 +126,51 @@ Admin --> CommunityInsights : Generate Reports
 @enduml
 
 ```
+
+## 4. Deployment Diagram
+
+![Deployment Diagram](assets/deploymentdiagram.png)
+
+```plantuml
+@startuml
+title Deployment Diagram - Concord
+
+node "User's Device" {
+    [Web/Mobile App] <<User Interface>>
+}
+
+node "Server" {
+    [API Gateway] <<API Gateway>>
+    [Auth Service] <<Service>>
+    [Text Service] <<Service>>
+    [Voice Service] <<Service>>
+    [Video Service] <<Service>>
+    [Server Management Service] <<Service>>
+    [Moderation Service] <<Service>>
+    [Community Engagement Service] <<Service>>
+}
+
+node "Database Server" {
+    database "User Database" as UserDB
+    database "Server Database" as ServerDB
+    database "Message Database" as MsgDB
+}
+
+cloud "External Services" {
+    [Notification Service] <<External Service>>
+}
+
+[Web/Mobile App] --> [API Gateway] : API Calls
+[API Gateway] --> [Auth Service] : Authenticate Users
+[API Gateway] --> [Text Service] : Handle Messages
+[API Gateway] --> [Voice Service] : Handle Voice Data
+[API Gateway] --> [Video Service] : Handle Video Calls
+[API Gateway] --> [Server Management Service] : Manage Servers
+[API Gateway] --> [Moderation Service] : Moderate Content
+[API Gateway] --> [Community Engagement Service] : Polls/Surveys
+[Auth Service] --> UserDB : User Data
+[Server Management Service] --> ServerDB : Server Details
+[Text Service] --> MsgDB : Store Messages
+@enduml
+
+```
