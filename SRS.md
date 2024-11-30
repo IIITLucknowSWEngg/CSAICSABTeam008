@@ -162,5 +162,15 @@ Concord will provide users with the capability to create customizable servers fo
 ### 9.3 Documentation
 - Provide detailed documentation for users, developers, and administrators, including user guides, API documentation, and technical design diagrams.
 
-## 10. Conclusion
+## 10. Use Case Specification
+
+### 10.1 Use Case Diagram
+The following use case diagram provides a visual representation of the primary interactions between users and the Concord platform:
+
+*(Insert Use Case Diagram Here)*
+
+### 10.2 Use Case Descriptions
+- **Refer to section for detailed use cases, like creating servers, managing roles, etc.**
+
+## 11. Conclusion
 This SRS document provides a detailed overview of the Concord application’s requirements, covering functional and non-functional aspects, system architecture, and design guidelines. It serves as a foundation for all phases of development, ensuring a consistent and user-friendly product.
