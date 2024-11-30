@@ -174,3 +174,31 @@ cloud "External Services" {
 @enduml
 
 ```
+
+# Features Overview
+
+## User Management and Authentication
+- **Sign-Up Options**: Register via email or social media.
+- **Secure Login**: Password encryption and multi-factor authentication.
+- **User Profiles**: Customizable avatars and statuses.
+- **Roles and Permissions**: Role-based access control.
+
+## Text Communication
+- Organized text channels with thread support.
+- Emoji reactions and rich media support.
+
+## Voice and Video Communication
+- High-quality voice and video calls with screen sharing.
+- Virtual backgrounds for privacy.
+
+## Server Management
+- Create and manage servers with custom categories and roles.
+
+## Moderation Tools
+- Bots for spam detection and manual moderation tools.
+
+## Community Engagement
+- Polls, surveys, and events for better interaction.
+
+## Security and Privacy
+- End-to-end encryption and two-factor authentication.
