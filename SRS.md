@@ -236,7 +236,9 @@ The following use case diagram provides a visual representation of the primary i
 
 <img width="833" alt="Screenshot 2024-11-30 at 4 08 26 PM" src="https://github.com/user-attachments/assets/16ac30f9-9687-49f6-963f-218449e76863">
 
+## 12. Error Case Diagram
 
+<img width="1176" alt="Screenshot 2024-11-30 at 4 11 34 PM" src="https://github.com/user-attachments/assets/3442cf70-00bb-4b00-81e9-1866acdbc509">
 
 ## 13. Conclusion
 This SRS document provides a detailed overview of the Concord application’s requirements, covering functional and non-functional aspects, system architecture, and design guidelines. It serves as a foundation for all phases of development, ensuring a consistent and user-friendly product.
