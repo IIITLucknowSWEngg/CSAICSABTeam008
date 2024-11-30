@@ -103,3 +103,26 @@ User --> CommunityService : Participate in Polls
 @enduml
 
 ```
+
+### 3.2 Component Diagram for Admins
+
+![Component Diagram for Admins](assets/admindiagram.png)
+
+```plantuml
+@startuml
+actor "Admin" as Admin
+
+package "Concord Admin Panel" {
+    rectangle "User Management" as UserMgmt
+    rectangle "Server Monitoring" as ServerMonitor
+    rectangle "Moderation Tools" as ModerationTools
+    rectangle "Community Insights" as CommunityInsights
+}
+
+Admin --> UserMgmt : Manage Users
+Admin --> ServerMonitor : Monitor Activities
+Admin --> ModerationTools : Moderate Content
+Admin --> CommunityInsights : Generate Reports
+@enduml
+
+```
