@@ -170,7 +170,67 @@ The following use case diagram provides a visual representation of the primary i
 *(Insert Use Case Diagram Here)*
 
 ### 10.2 Use Case Descriptions
-- **Refer to section for detailed use cases, like creating servers, managing roles, etc.**
+
+#### Use Case 1: Create a Server
+- **Actors**: User
+- **Description**: A user creates a new server for content sharing or collaboration.
+- **Preconditions**: The user must be logged in.
+- **Postconditions**: A new server is created and visible in the user's server list.
+- **Main Flow**:
+  1. User navigates to the "Create Server" page.
+  2. User enters server details (name, description, category).
+  3. User selects privacy settings (public/private).
+  4. System saves server details and displays it in the user's dashboard.
+- **Alternate Flow**:
+  - If mandatory fields are incomplete, the system displays an error message and prompts the user to complete the fields.
+
+#### Use Case 2: Manage Channels
+- **Actors**: Server Owner, Admin
+- **Description**: A server owner or admin creates, edits, or deletes channels within a server.
+- **Preconditions**: The actor must have appropriate permissions.
+- **Postconditions**: Channels are updated based on the performed action.
+- **Main Flow**:
+  1. Actor selects the server and navigates to the "Channels" section.
+  2. Actor chooses to create, edit, or delete a channel.
+  3. System updates the channel list and notifies relevant users.
+- **Alternate Flow**:
+  - If the channel name is not unique, the system prompts the actor to choose a different name.
+
+#### Use Case 3: Assign User Roles
+- **Actors**: Server Owner, Admin
+- **Description**: Assign roles to users within a server to control permissions.
+- **Preconditions**: The actor must have permission to manage roles.
+- **Postconditions**: User roles are updated in the server.
+- **Main Flow**:
+  1. Actor navigates to the server’s "Roles" page.
+  2. Actor selects a user and assigns a role (e.g., Admin, Moderator).
+  3. System updates the user's permissions accordingly.
+- **Alternate Flow**:
+  - If the role is invalid or permissions conflict, the system displays an error.
+
+#### Use Case 4: Share Content
+- **Actors**: User
+- **Description**: A user uploads and shares content within a channel.
+- **Preconditions**: User must have access to the channel.
+- **Postconditions**: Content is visible to channel members.
+- **Main Flow**:
+  1. User selects a channel and clicks on "Upload Content."
+  2. User selects files to upload and optionally adds a description.
+  3. System uploads the files and notifies channel members.
+- **Alternate Flow**:
+  - If the file type is unsupported, the system rejects the upload and displays an error.
+
+#### Use Case 5: Search for Content
+- **Actors**: User
+- **Description**: A user searches for specific content within a server or channel.
+- **Preconditions**: User must be a member of the server.
+- **Postconditions**: Search results are displayed based on the query.
+- **Main Flow**:
+  1. User enters search criteria in the search bar.
+  2. System retrieves matching content and displays the results.
+  3. User selects a result to view detailed content.
+- **Alternate Flow**:
+  - If no results are found, the system suggests refining the search criteria.
 
 ## 11. Conclusion
 This SRS document provides a detailed overview of the Concord application’s requirements, covering functional and non-functional aspects, system architecture, and design guidelines. It serves as a foundation for all phases of development, ensuring a consistent and user-friendly product.
