@@ -31,3 +31,29 @@ Concord is a next-generation communication platform designed to foster real-time
 - **Sound Effects & Bots**: Integrate soundboards or music bots for enhanced interaction.  
 
 ---
+
+
+#### **Video Communication**  
+- **Video Calls**: One-on-one or group video calls with screen sharing capabilities.  
+- **Streaming**: Broadcast live gameplay or presentations to large audiences.  
+- **Virtual Backgrounds**: Customize video backgrounds for privacy or fun.  
+
+---
+
+#### **Server Management**  
+- **Custom Servers**: Create and manage servers with customizable names, icons, and descriptions.  
+- **Channel Categories**: Organize channels into categories for easy navigation.  
+- **Role Management**: Assign roles with specific permissions to members.  
+- **Audit Logs**: Track all server activities and changes for security and accountability.  
+
+---
+
+#### **Moderation Tools**  
+- **Automated Moderation**: Use bots for automatic message filtering, spam detection, and rule enforcement.  
+- **Manual Moderation**: Kick, ban, or mute users manually when necessary.  
+- **Slow Mode**: Limit message frequency to reduce spam.  
+- **Report System**: Allow users to report inappropriate content or behavior.  
+
+---
+
+
