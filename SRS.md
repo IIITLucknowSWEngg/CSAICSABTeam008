@@ -232,5 +232,11 @@ The following use case diagram provides a visual representation of the primary i
 - **Alternate Flow**:
   - If no results are found, the system suggests refining the search criteria.
 
-## 11. Conclusion
+## 11. Abuse Case Diagram
+
+<img width="833" alt="Screenshot 2024-11-30 at 4 08 26 PM" src="https://github.com/user-attachments/assets/16ac30f9-9687-49f6-963f-218449e76863">
+
+
+
+## 13. Conclusion
 This SRS document provides a detailed overview of the Concord application’s requirements, covering functional and non-functional aspects, system architecture, and design guidelines. It serves as a foundation for all phases of development, ensuring a consistent and user-friendly product.
