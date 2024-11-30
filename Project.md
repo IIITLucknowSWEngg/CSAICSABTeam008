@@ -56,4 +56,31 @@ Concord is a next-generation communication platform designed to foster real-time
 
 ---
 
+#### **Customization**  
+- **Themes**: Light and dark modes, with additional theme customization options.  
+- **Custom Emojis & Stickers**: Upload unique emojis and stickers to enhance communication.  
+- **Server Boosting**: Unlock premium features like higher audio quality and more customization options through server boosts.  
+
+---
+
+#### **Integration & Bots**  
+- **Third-Party Integrations**: Seamless integration with services like YouTube, Twitch, GitHub, and more.  
+- **Custom Bots**: Build or add bots to automate tasks, enhance engagement, and add fun features.  
+
+---
+
+#### **Security & Privacy**  
+- **End-to-End Encryption**: Ensures secure communication for private channels and direct messages.  
+- **Two-Factor Authentication**: Extra layer of security for user accounts.  
+- **Privacy Controls**: Adjustable settings for personal data, visibility, and interactions.  
+
+---
+
+#### **Community Engagement**  
+- **Events & Announcements**: Create event reminders and pin announcements for community engagement.  
+- **Polls & Surveys**: Gather feedback through interactive polls.  
+- **Community Guidelines**: Define and enforce guidelines for a healthy, inclusive environment.  
+
+---
+
 
