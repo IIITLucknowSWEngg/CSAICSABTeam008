@@ -83,4 +83,18 @@ Concord is a next-generation communication platform designed to foster real-time
 
 ---
 
+#### **Mobile & Desktop Support**  
+- **Cross-Platform Compatibility**: Available on web, desktop (Windows, macOS, Linux), and mobile (iOS, Android).  
+- **Offline Messaging**: View and compose messages offline, synced when online.  
 
+---
+
+### **Excluded Features**  
+1. **E-commerce Integration**: No direct in-app purchases or store features.  
+2. **Multi-Language Support**: Initial version supports only English; future versions will include more languages.  
+3. **Advanced AI Moderation**: No machine-learning-based content moderation tools in this release.  
+
+---
+
+### **Future Scope**  
+Future updates for Concord aim to expand multi-language support, introduce advanced AI-driven moderation, implement e-commerce integrations, and enhance customization features for a more personalized user experience.
