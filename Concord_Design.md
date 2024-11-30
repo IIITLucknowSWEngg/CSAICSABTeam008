@@ -31,7 +31,7 @@ Admin users can:
 
 ### 3.1 **System Context Diagram**
 
-\`\`\`plantuml
+```plantuml
 @startuml
 ' External Actors
 actor "User" as User
@@ -55,13 +55,13 @@ User --> Notification : Receive Updates
 Admin --> ServerChannel : Administer Servers
 Admin --> UserManagement : Manage Users
 @enduml
-\`\`\`
+```
 
 ---
 
 ### 3.2 **Container Diagram**
 
-\`\`\`plantuml
+```plantuml
 @startuml
 !define RECTANGLE rectangle
 
@@ -99,7 +99,7 @@ UserService --> UserDB
 CommService --> CommLogs
 MediaService --> MediaStorage
 @enduml
-\`\`\`
+```
 
 ---
 
