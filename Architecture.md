@@ -75,3 +75,31 @@ ServerMgmtService --> ServerDB : Manage Servers
 
 ```
 
+## 3. Component Diagram
+
+### 3.1 Component Diagram for Users
+
+![Component Diagram for Users](assets/componentuserdiagram.png)
+
+```plantuml
+@startuml
+actor "User" as User
+
+package "Concord App" {
+    rectangle "Authentication \nand Profile Management" as AuthSystem
+    rectangle "Text Communication" as TextComm
+    rectangle "Voice Communication" as VoiceComm
+    rectangle "Video Communication" as VideoComm
+    rectangle "Server Management" as ServerMgmt
+    rectangle "Community Engagement" as CommunityService
+}
+
+User --> AuthSystem : Register/Login
+User --> TextComm : Send Messages
+User --> VoiceComm : Join Voice Channels
+User --> VideoComm : Start Video Calls
+User --> ServerMgmt : Manage Servers
+User --> CommunityService : Participate in Polls
+@enduml
+
+```
