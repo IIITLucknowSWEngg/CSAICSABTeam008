@@ -167,7 +167,7 @@ Concord will provide users with the capability to create customizable servers fo
 ### 10.1 Use Case Diagram
 The following use case diagram provides a visual representation of the primary interactions between users and the Concord platform:
 
-*(Insert Use Case Diagram Here)*
+<img width="769" alt="Screenshot 2024-11-30 at 3 59 12 PM" src="https://github.com/user-attachments/assets/c2e173c3-61e0-4b89-8907-b9ba7ad548fc">
 
 ### 10.2 Use Case Descriptions
 
