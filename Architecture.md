@@ -1,6 +1,6 @@
 # Architecture.md
 
-## 1. System Context Diagram
+### 1. System Context Diagram
 
 ![System Context Diagram](assets/systemcontextdiagram.png)
 
@@ -32,7 +32,7 @@ Admin --> ModerationTools : Moderate Activities
 
 ```
 
-## 2. Container Diagram
+### 2. Container Diagram
 
 ![Container Diagram](assets/containerdiagram.png)
 
@@ -75,9 +75,9 @@ ServerMgmtService --> ServerDB : Manage Servers
 
 ```
 
-## 3. Component Diagram
+### 3. Component Diagram
 
-### 3.1 Component Diagram for Users
+#### 3.1 Component Diagram for Users
 
 ![Component Diagram for Users](assets/componentuserdiagram.png)
 
@@ -104,7 +104,7 @@ User --> CommunityService : Participate in Polls
 
 ```
 
-### 3.2 Component Diagram for Admins
+#### 3.2 Component Diagram for Admins
 
 ![Component Diagram for Admins](assets/admindiagram.png)
 
@@ -127,7 +127,7 @@ Admin --> CommunityInsights : Generate Reports
 
 ```
 
-## 4. Deployment Diagram
+### 4. Deployment Diagram
 
 ![Deployment Diagram](assets/deploymentdiagram.png)
 
@@ -175,30 +175,30 @@ cloud "External Services" {
 
 ```
 
-# Features Overview
+## Features Overview
 
-## User Management and Authentication
+### User Management and Authentication
 - **Sign-Up Options**: Register via email or social media.
 - **Secure Login**: Password encryption and multi-factor authentication.
 - **User Profiles**: Customizable avatars and statuses.
 - **Roles and Permissions**: Role-based access control.
 
-## Text Communication
+### Text Communication
 - Organized text channels with thread support.
 - Emoji reactions and rich media support.
 
-## Voice and Video Communication
+### Voice and Video Communication
 - High-quality voice and video calls with screen sharing.
 - Virtual backgrounds for privacy.
 
-## Server Management
+### Server Management
 - Create and manage servers with custom categories and roles.
 
-## Moderation Tools
+### Moderation Tools
 - Bots for spam detection and manual moderation tools.
 
-## Community Engagement
+### Community Engagement
 - Polls, surveys, and events for better interaction.
 
-## Security and Privacy
+### Security and Privacy
 - End-to-end encryption and two-factor authentication.
