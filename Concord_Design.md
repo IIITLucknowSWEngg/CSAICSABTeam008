@@ -31,6 +31,9 @@ Admin users can:
 
 ### 3.1 **System Context Diagram**
 
+![System Context Diagram](https://github.com/user-attachments/assets/92947bef-0be9-4b72-bd32-0e27b93786f7)
+
+
 ```plantuml
 @startuml
 ' External Actors
@@ -60,6 +63,8 @@ Admin --> UserManagement : Manage Users
 ---
 
 ### 3.2 **Container Diagram**
+
+![System Container Diagram](https://github.com/user-attachments/assets/bdd236c1-c85c-48f1-9195-c2ecbd29778f)
 
 ```plantuml
 @startuml
