@@ -20,7 +20,7 @@ Concord will provide users with the capability to create customizable servers fo
 - Each server must have customizable settings, including privacy options (e.g., public or private access).
 
 #### Channels
-- Within each server, users should have the ability to create channels dedicated to various forms of communication (e.g., text, multimedia, voice).
+- Within each workspace, users should have the capability to establish channels tailored to different types of collaboration (e.g., document sharing, task discussions, video conferencing).
 - Support for rich text formatting, embedding multimedia content, and handling various file types within channels.
 
 #### User Roles and Permissions
