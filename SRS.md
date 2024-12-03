@@ -6,7 +6,7 @@
 This Software Requirements Specification (SRS) document outlines the detailed software requirements for the Concord application. It specifies the functional and non-functional requirements, user scenarios, system constraints, and design considerations to guide the development, testing, and deployment of Concord. This SRS ensures that all stakeholders understand the software's capabilities, scope, and performance criteria.
 
 ### 1.2 Scope
-Concord is a platform designed for creating and managing servers dedicated to content sharing, collaborative note-taking, and resource management. This SRS covers the essential requirements as identified in the User Requirements Document (URD), focusing on functional requirements, non-functional aspects, system architecture, and the user interface design.
+Symphony is a platform developed to streamline team communication, project management, and document collaboration. This Software Requirements Specification (SRS) outlines the critical requirements derived from the User Requirements Document (URD), emphasizing functional specifications, non-functional parameters, system architecture, and the design of user interfaces.
 
 ### 1.3 Overview
 Concord will provide users with the capability to create customizable servers for a variety of purposes, such as project management, file sharing, and collaborative workspaces. Key features include server creation, channel management, role-based permissions, content sharing, and real-time collaboration tools. The platform will support both web and mobile interfaces, ensuring accessibility across devices.
