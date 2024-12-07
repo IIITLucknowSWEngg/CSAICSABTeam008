@@ -155,7 +155,7 @@ Key API Endpoints:
 
 ## 7. **Non-Functional Requirements**
 
-## 7.1 Performance: 
+### 7.1 Performance: 
 - Support for 10,000+ concurrent users.
 
 ### 7.2 Scalability:
