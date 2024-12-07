@@ -175,30 +175,30 @@ cloud "External Services" {
 
 ```
 
-## Features Overview
+## 5. Features Overview
 
-### User Management and Authentication
+### 5.1 User Management and Authentication
 - **Sign-Up Options**: Register via email or social media.
 - **Secure Login**: Password encryption and multi-factor authentication.
 - **User Profiles**: Customizable avatars and statuses.
 - **Roles and Permissions**: Role-based access control.
 
-### Text Communication
+### 5.2 Text Communication
 - Organized text channels with thread support.
 - Emoji reactions and rich media support.
 
-### Voice and Video Communication
+### 5.3 Voice and Video Communication
 - High-quality voice and video calls with screen sharing.
 - Virtual backgrounds for privacy.
 
-### Server Management
+### 5.4 Server Management
 - Create and manage servers with custom categories and roles.
 
-### Moderation Tools
+### 5.5 Moderation Tools
 - Bots for spam detection and manual moderation tools.
 
-### Community Engagement
+### 5.6 Community Engagement
 - Polls, surveys, and events for better interaction.
 
-### Security and Privacy
+### 5.7 Security and Privacy
 - End-to-end encryption and two-factor authentication.
