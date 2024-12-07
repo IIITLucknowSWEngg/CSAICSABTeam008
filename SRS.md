@@ -15,65 +15,65 @@ Concord will provide users with the capability to create customizable servers fo
 
 ### 2.1 Functional Requirements
 
-#### Server Creation
+#### 2.1.1 Server Creation
 - Users must be able to create multiple servers with unique names and descriptions, organized by categories such as projects, topics, or personal interests.
 - Each server must have customizable settings, including privacy options (e.g., public or private access).
 
-#### Channels
+#### 2.1.2 Channels
 - Within each workspace, users should have the capability to establish channels tailored to different types of collaboration (e.g., document sharing, task discussions, video conferencing).
 - Support for rich text formatting, embedding multimedia content, and handling various file types within channels.
 
-#### User Roles and Permissions
+#### 2.1.3 User Roles and Permissions
 - Server owners should be able to define user roles, such as admin, moderator, or member, with specific permissions associated with each role.
 - Permissions should include control over channels, server settings, and content management.
 
-#### Content Sharing
+#### 2.1.4 Content Sharing
 - Users must be able to upload and share various file types (e.g., PDFs, images, videos) within the server's channels.
 - The platform should support drag-and-drop uploads with preview options for compatible file types.
 
-#### Collaboration Features
+#### 2.1.5 Collaboration Features
 - Include real-time collaboration tools, such as comments, file attachments, and shared note-taking, to facilitate teamwork.
 - Provide real-time updates and notifications for any changes in server content or channel activity.
 
-#### Search and Filtering
+#### 2.1.6 Search and Filtering
 - Users must be able to search for content, channels, or users within servers.
 - Provide content filtering based on type, date, or relevance to streamline the user experience.
 
-#### Notification System
+#### 2.1.7 Notification System
 - Implement a configurable notification system that alerts users to key updates, mentions, and other important events within the platform.
 - Notifications should be customizable based on user preferences for different types of alerts.
 
 ### 2.2 Non-Functional Requirements
 
-#### Security
+#### 2.2.1 Security
 - The platform must implement secure communication methods, including end-to-end encryption for sensitive content.
 - Ensure user data privacy and enforce measures to prevent unauthorized access to data and servers.
 
-#### Performance
+#### 2.2.2 Performance
 - The system should efficiently handle high volumes of traffic and multiple simultaneous users without any significant decrease in performance.
 - Optimize the platform's load times and interactions for faster responses to user actions.
 
-#### Scalability
+#### 2.2.3 Scalability
 - Concord’s system architecture should support scaling, allowing it to accommodate a growing number of users, servers, and shared content.
 - Implement a scalable infrastructure, including load balancing and distributed storage solutions.
 
-#### Usability
+#### 2.2.4 Usability
 - The user interface must be intuitive and simple to navigate, ensuring ease of use for both novice and expert users.
 - Ensure the platform supports multiple languages and meets accessibility standards.
 
-#### Reliability
+#### 2.2.5 Reliability
 - Concord must maintain high reliability, with minimal downtime and backup systems in place to protect against data loss.
 - Implement robust error handling and recovery processes to ensure system stability.
 
 ### 2.3 User Scenarios
 
-#### Scenario 1: Student Collaboration
+#### 2.3.1 Scenario 1: Student Collaboration
 - A student creates a server for a group project, assigning roles like admins and note-takers. The group uses channels to share project files, discuss assignments, and collaborate on shared documents.
 
-#### Scenario 2: Content Sharing for Creators
+#### 2.3.2 Scenario 2: Content Sharing for Creators
 - A content creator establishes a server for exclusive material sharing with their subscribers. They assign access permissions to subscribers based on their membership level.
 
-#### Scenario 3: Professional Team Collaboration
+#### 2.3.3 Scenario 3: Professional Team Collaboration
 - A professional team sets up a server for a project, using it to store documents, track progress, and hold virtual meetings. They manage roles and permissions within the server to ensure efficient collaboration.
 
 ## 3. System Requirements
@@ -171,7 +171,7 @@ The following use case diagram provides a visual representation of the primary i
 
 ### 10.2 Use Case Descriptions
 
-#### Use Case 1: Create a Server
+#### 10.2.1 Use Case 1: Create a Server
 - **Actors**: User
 - **Description**: A user creates a new server for content sharing or collaboration.
 - **Preconditions**: The user must be logged in.
@@ -184,7 +184,7 @@ The following use case diagram provides a visual representation of the primary i
 - **Alternate Flow**:
   - If mandatory fields are incomplete, the system displays an error message and prompts the user to complete the fields.
 
-#### Use Case 2: Manage Channels
+#### 10.2.2 Use Case 2: Manage Channels
 - **Actors**: Server Owner, Admin
 - **Description**: A server owner or admin creates, edits, or deletes channels within a server.
 - **Preconditions**: The actor must have appropriate permissions.
@@ -196,7 +196,7 @@ The following use case diagram provides a visual representation of the primary i
 - **Alternate Flow**:
   - If the channel name is not unique, the system prompts the actor to choose a different name.
 
-#### Use Case 3: Assign User Roles
+#### 10.2.3 Use Case 3: Assign User Roles
 - **Actors**: Server Owner, Admin
 - **Description**: Assign roles to users within a server to control permissions.
 - **Preconditions**: The actor must have permission to manage roles.
@@ -208,7 +208,7 @@ The following use case diagram provides a visual representation of the primary i
 - **Alternate Flow**:
   - If the role is invalid or permissions conflict, the system displays an error.
 
-#### Use Case 4: Share Content
+#### 10.2.4 Use Case 4: Share Content
 - **Actors**: User
 - **Description**: A user uploads and shares content within a channel.
 - **Preconditions**: User must have access to the channel.
@@ -220,7 +220,7 @@ The following use case diagram provides a visual representation of the primary i
 - **Alternate Flow**:
   - If the file type is unsupported, the system rejects the upload and displays an error.
 
-#### Use Case 5: Search for Content
+#### 10.2.5 Use Case 5: Search for Content
 - **Actors**: User
 - **Description**: A user searches for specific content within a server or channel.
 - **Preconditions**: User must be a member of the server.
