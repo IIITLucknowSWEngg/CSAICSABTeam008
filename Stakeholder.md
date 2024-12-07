@@ -11,9 +11,10 @@
 ### **2. Product Stakeholders**
 | **Sub-Section Number** | **Stakeholders**          | **Role**                                                     | **Responsibilities**                                                                                         | **Impact**                                                    |
 |-------------------------|---------------------------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| 2.1                     | **End Users** | Represent users and community groups                        | Providing feedback on usability and functionality and engaging with features like channels and events.       | High - Drives satisfaction and success of the platform.       |
-| 2.2                     | **Community Moderators** | Manage and oversee user communities                         | Overseeing moderation tools, managing content, and ensuring compliance with community standards.             | High - Ensures a safe and engaging community environment.     |
-| 2.3                     | **Content Creators**     | Generate and control content within the platform            | Creating original content like bots, workspaces, or events to engage and attract more users.                 | Medium - Boosts user engagement and platform visibility.      |
+| 2.1                     | **Server Owners** | Creates, manages, and oversees a server within the platform.                      | Create and configure servers, manage roles and permissions, set server settings, create/manage channels, and monitor server health.       | High - Ensures smooth collaboration, a safe server environment, and enhances user experience.       |
+| 2.2                     | **End Users** | Represent users and community groups                        | Providing feedback on usability and functionality and engaging with features like channels and events.       | High - Drives satisfaction and success of the platform.       |
+| 2.3                     | **Community Moderators** | Manage and oversee user communities                         | Overseeing moderation tools, managing content, and ensuring compliance with community standards.             | High - Ensures a safe and engaging community environment.     |
+| 2.4                     | **Content Creators**     | Generate and control content within the platform            | Creating original content like bots, workspaces, or events to engage and attract more users.                 | Medium - Boosts user engagement and platform visibility.      |
 
 ---
 
