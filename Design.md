@@ -155,16 +155,16 @@ Key API Endpoints:
 
 ## 7. **Non-Functional Requirements**
 
-### Performance:
+## 7.1 Performance: 
 - Support for 10,000+ concurrent users.
 
-### Scalability:
+### 7.2 Scalability:
 - Dynamic scaling using cloud infrastructure.
 
-### Reliability:
+### 7.3 Reliability:
 - 99.9% uptime with failover mechanisms.
 
-### Security:
+### 7.4 Security:
 - Encrypted communication and secure data storage.
 
 ---
