@@ -49,5 +49,61 @@
 - **Third-party Integrations**: The platform may rely on third-party services for file storage, real-time messaging, or authentication.
 - **User Devices**: Users are expected to access Concord from various devices such as PCs, tablets, and smartphones.
 
+## **10. Stakeholder Input**
+
+The following summarizes insights from interview clips with stakeholders and target users. These interviews provided context on user needs, expectations, and pain points.
+
+---
+
+### **Interview 1: Student Group Project Collaboration**
+
+- **Stakeholder**: University Student (Sophomore, Tech-savvy)  
+- **Key Insight**:  
+  > "I want to create a server for group projects, where we can organize notes, share assignments, and hold discussions without getting lost in email threads."  
+
+- **Highlighted Requirements**:  
+  - Server creation for team projects.  
+  - Ability to share notes and files.  
+  - Role permissions for students to manage tasks.
+
+---
+
+### **Interview 2: Content Creator's Use Case**
+
+- **Stakeholder**: Content Creator (YouTuber, Active Social Media User)  
+- **Key Insight**:  
+  > "I’m looking for a space to share exclusive content with my subscribers, assign them different levels of access, and foster community discussions."  
+
+- **Highlighted Requirements**:  
+  - Subscriber-based access permissions.  
+  - Real-time chat with media-sharing capabilities.  
+  - Notifications for events/updates.
+
+---
+
+### **Interview 3: Professional Project Collaboration**
+
+- **Stakeholder**: Tech Professional (Team Leader)  
+- **Key Insight**:  
+  > "We need a secure and efficient space for teams to collaborate on project documentation, have regular discussions, and even schedule meetings."  
+
+- **Highlighted Requirements**:  
+  - Secure communication with end-to-end encryption.  
+  - Video and voice calling for meetings.  
+  - Document sharing and server activity logs.
+
+---
+
+### **Interview 4: Admin & Moderation Needs**
+
+- **Stakeholder**: Community Manager (Server Admin with team leadership experience)  
+- **Key Insight**:  
+  > "Admin tools should allow moderation, banning bad actors, and controlling server activity. Managing user roles efficiently is critical."  
+
+- **Highlighted Requirements**:  
+  - Admin tools for user moderation.  
+  - Ability to manage roles, permissions, and server abuse.  
+  - Intuitive admin dashboard.
+
 ## 10. Conclusion
 This URD outlines the necessary features and functionalities expected by Concord's end users, setting the stage for further detailed requirements and design phases.
