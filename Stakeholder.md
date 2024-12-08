@@ -32,3 +32,8 @@
 |-------------------------|------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | 4.1                     | **Legal and Compliance Team** | Ensure adherence to legal and privacy standards             | Ensuring GDPR compliance, advising on moderation policies, and adherence to copyright/gaming laws.    | Medium - Critical for legal operation and risk mitigation.    |
 | 4.2                     | **Regulatory Authorities**   | Oversee compliance with laws and regulations               | Monitoring compliance with data privacy and gaming regulations and ensuring fair play/security.       | High - Ensures legitimacy and reduces legal risks.            |
+
+---
+
+### **Prompt Used**
+List me all the stakeholders you think are needed for a Discord clone 'Concord'.
