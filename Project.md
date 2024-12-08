@@ -88,13 +88,37 @@ Concord is a next-generation communication platform designed to foster real-time
 - **Offline Messaging**: View and compose messages offline, synced when online.  
 
 ---
-
 ### **Excluded Features**  
-1. **E-commerce Integration**: No direct in-app purchases or store features.  
-2. **Multi-Language Support**: Initial version supports only English; future versions will include more languages.  
-3. **Advanced AI Moderation**: No machine-learning-based content moderation tools in this release.  
+
+1. **E-commerce Integration**:  
+   - No support for in-app purchases or online marketplace functionality.  
+
+2. **Stage Channels**:  
+   - No dedicated channels for hosting public audio-based events or broadcasts.  
+
+3. **Server Discovery**:  
+   - Concord lacks a feature for publicly listing servers for discovery by users.  
+
+4. **Nitro-Like Subscription**:  
+   - No premium subscription offering perks like global emojis, increased file upload size, or enhanced audio quality.  
+
+5. **Activity Features**:  
+   - No integrated mini-games or live activity sharing within the app.  
+
+6. **Custom URL Invites**:  
+   - No option for creating vanity URLs for server invites.  
+
+7. **Server Insights and Analytics**:  
+   - No built-in analytics for tracking user engagement or activity trends.  
+
 
 ---
 
 ### **Future Scope**  
 Future updates for Concord aim to expand multi-language support, introduce advanced AI-driven moderation, implement e-commerce integrations, and enhance customization features for a more personalized user experience.
+
+---
+
+
+### **Prompt Used for Document**  
+"Generate a detailed project overview for a platform called Concord. Include features like user management, communication tools, customization, integrations, and security. Exclude e-commerce, stage channels, server discovery, premium subscriptions, mini-games, custom URLs, server analytics, and rich presence. Use markdown formatting with headings and bullet points."
