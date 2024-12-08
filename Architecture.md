@@ -202,3 +202,9 @@ cloud "External Services" {
 
 ### 5.7 Security and Privacy
 - End-to-end encryption and two-factor authentication.
+
+
+
+## Prompt
+
+Generate a system architecture document for 'Concord' with PlantUML diagrams, including System Context, Container, Component, and Deployment diagrams. Summarize features like User Management, Communication, Moderation, and Security. Ensure clarity, accurate syntax, and detailed component interactions.
